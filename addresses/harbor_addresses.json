@@ -1,0 +1,121 @@
+{
+    "Binance": {
+       "Reserves": {
+          "USDC": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+          "USDT": "0x55d398326f99059fF775485246999027B3197955",
+          "WBTC": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+          "WETH": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+          "WBNB": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+       },
+       "Aggregators": {
+          "USDC": "0x51597f405303C4377E36123cBc172b13269EA163",
+          "USDT": "0xB97Ad0E74fa7d920791E90258A6E2085088b4320",
+          "WBTC": "0x264990fbd0A4796A3E3d8E37C4d5F87a3aCa5Ebf",
+          "WETH": "0x9ef1B8c0E4F7dc8bF5719Ea496883DC6401d5b2e",
+          "WBNB": "0x0567F2323251f0Aab15c8dFb1967E4e8A7D42aeE"
+       },
+       "Strategies": {
+          "StableStrategy": "0x4c42458D58092684989192284683CA392bcf883a",
+          "VolatileStrategy": "0xBb3516FbE4F6533b0eDc9Ffdfe32A2914d1ddeDA"
+       },
+       "Protocol": {
+          "Registry": "0x31406A8c12813b64bF9985761BA51412B92fFb4E",
+          "Provider": "0xcD2f1565e6d2A83A167FDa6abFc10537d4e984f0",
+          "ReserveLogic": "0x8fa00fE105De62B0C3d259198eFf9860bDF2eAb6",
+          "GenericLogic": "0x5515467456D5B081126a3D9cA7a8c5624057c37d",
+          "ValidationLogic": "0x01892EbCB911c684f3c2033f37b03930d04Bb2d1",
+          "LendingPool": "0xad441B19a9948c3a3f38C0AB6CCbd853036851d2",
+          "LendingPoolProxy": "0xf5Ab6C920af8f1bd4b16fDa9e7EF3173ffb616f7",
+          "Configurator": "0x50d4d7488DFe721840eB975Fe5ff6655Afa9EF7e",
+          "ConfiguratorProxy": "0xdb26083CA872597700F1452435d170ca9063Aa9C",
+          "AToken": "0x45e51131Ca1f3E8203e4E15eDA04BC399C59034b",
+          "VariableDebtToken": "0xDFB32B490795ea68E630D5BeFe329FEd60d4d714",
+          "StableDebtToken": "0xBb3D649a1965e323ABd659a02452177D309Ce69c",
+          "Oracle": "0xc2a0E71ddEEF10D402017E027782BeEC250237Af",
+          "LendingRateOracle": "0xEa0c83b02b7722F762b6B60e8Da597328Ac45AAb",
+          "WETHGateway": "0x47a677a5E49B71BE074049EBb358021E6c82b2d7",
+          "CollateralManager": "0x0e23B11B5C585b6D3a5298d4Fa723636bb64d1dA",
+          "ATokens": {
+             "hbrUSDC": "0xca0Ec956e829D999Cd75C4e972BEb73cedA823d5",
+             "hbrUSDT": "0x686C55C8344E902CD8143Cf4BDF2c5089Be273c5",
+             "hbrWBTC": "0xd85e24a4Eca78D060c0CDC7a903BaC108B3FB5bc",
+             "hbrWETH": "0x641a8EDAeC2921e904f910f063b474574BcA1CB2",
+             "hbrBNB": "0x275c55d05c3550432C03902D42D7F6318B91d099"
+          },
+          "StableDebtTokens": {
+             "sUSDC": "0xe95733990b9B704A9c0cA6FebFCf3cC3FE1339Da",
+             "sUSDT": "0xd88d0Df3159545655747295D73B57dF139BA2aF2",
+             "sWBTC": "0xeF806043ff96e88bA4dd93E1e9e7898cc2DAb4e2",
+             "sWETH": "0x470A0EA698830bE4D9B92CA8D4DBD805E8C6E89c",
+             "sWBNB": "0x55f9835c1088ECEe881A4708F16805df5729Bc35"
+          },
+          "VariableDebtTokens": {
+             "vUSDC": "0x1951E664D75FD3e7af9Ac1F3626d5761ADE0F3E5",
+             "vUSDT": "0x844eF347d2c134323Ba95bFea0D39058B43126b6",
+             "vWBTC": "0x66e64F46e9CFF257b8010757888e0ef6656cE789",
+             "vWETH": "0x07533A4d2B8181ab9a7941e8B0f9fC60A9Bf5e84",
+             "vWBNB": "0xC47839FE1371Fff7b4c6f187B9AB61A1B16B8943"
+          }
+       },
+       "Peripheral": {
+          "HBR": {
+             "Proxy": "0x42c95788F791a2be3584446854c8d9BB01BE88A9",
+             "Implementation": "0x3E371Af1F0f7C3969F924298ff63B3dF783dAD26"
+          },
+          "Rewards": {
+             "Rewarder": "0x071c626C75248E4F672bAb8c21c089166F49B615",
+             "RewardTokens": {
+                "HBR": "0x42c95788F791a2be3584446854c8d9BB01BE88A9",
+                "oHBR": "0x45c19a3068642B98F5AEf1dEdE023443cd1FbFAd"
+             },
+             "RewardVaults": {
+                "oHBR": "0x0D8401002d654060370EA4738C29de41078cBA53"
+             }
+          },
+          "Options": {
+             "oHBR": {
+                "Proxy": "0x45c19a3068642B98F5AEf1dEdE023443cd1FbFAd",
+                "Implementation": "0xc79593C528d673f5Db0B8707115193FE1596aB34"            
+             },
+             "Exercise": "0x3Fbf4f9cf73162e4e156972540f53Dabe65c2862"
+          },  
+          "Reliquary": {
+             "Reliquary": "0xF512283347C174399Cc3E11492ead8b49BD2712e",
+             "EmissionCurve": "0x916E5132182246A9E517CECaD53159b5ED4667DF",
+             "Rewarders": {
+                "USDT": {
+                   "ParentRollingRewarder": "0xde1968825844b2dDd3451681F0e481737b7Aa666",
+                   "ChildRollingRewarder": "0xFE98B0b73F7149fACE7A80690466561E90bEf8ec",
+                   "RewardsPool": "0x22Af4Ae90f7Bb4638def5e9161B0Db37bbDBce5E"
+                },
+                "WBNB": {
+                   "ParentRollingRewarder": "0xc1Df4fC2B3d672A7152C7cF0C63604dfC192B0f9",
+                   "ChildRollingRewarder": "0xC1e5A6a11Cf39C295e1371072529e955d98Ddb55",
+                   "RewardsPool": "0xe77A32b7877E90f37b202891Bca00f9D605C7d08"
+                }
+             },
+             "Helpers": {
+                "OHbrOracle": "0x5068388D6208a7aadE536b252A526c697FE093C8",
+                "HbrOracle": "0xb778C83BfA3b58825538852fb261eE6Dd0984204",
+                "LpOracle": "0xfFE122c0C76E32652549c5c533cd91eAC7283C3c",
+                "PriceDataProvider": "0x5Dbc154Ac539B2d541CEB73193A1B171564D829E"
+             }
+          },         
+          "ProtocolDataProvider": "0xFa0AC9b741F0868B2a8C4a6001811a5153019818",
+          "ATokenHelper": "0x69199EB81138580219952E4D0d566fd75F0020fc",
+          "StableAndVariableTokenHelper": "0x45C7E7Ed868669eEE601F8eac301E39C587c489E",
+          "WalletBalanceProvider": "0x1F973359EAdD49d2eBCDC3004744f8C5dc56FC9d",
+          "UiPoolDataProviderV2": "0x09Decfd362f10B25651cFD8C57Db8283559c1DC4",
+          "UiIncentivesDataProvider": "0x71E20B4959e6cc620720D1675aa581D437228eBB",
+          "ChainlinkSourcesRegistry": "0x407bB134CfF2af2F04D5E070300c439ce88529aF",
+          "Treasury": "0xEa46EEa22dd001da738735573AD3AD9a02aFF56b",
+          "Timelock": "0xCf27707822eAf15Bf5ae4D533b1C56F5b47c0a19",
+          "Multisigs": {
+             "PrimaryMultisig": "0x6eB1fF8E939aFBF3086329B2b32725b72095512C",
+             "EmergencyMultisig": "0x6eB1fF8E939aFBF3086329B2b32725b72095512C",
+             "HbrTreasury": "0x52786B7897Cc5b195559091e16ee6b184fd25b30",
+             "FeesTreasury": "0xdF1A5Ea875bb270463223d713D1B92c5d707514A"
+          }
+       }
+    }
+ }

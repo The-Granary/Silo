@@ -1,0 +1,94 @@
+{
+    "Horizen": {
+       "Reserves": {
+          "WZEN": "0xF5cB8652a84329A2016A386206761f455bCEDab6",
+          "USDC": "0xCc44eB064CD32AAfEEb2ebb2a47bE0B882383b53",
+          "WETH": "0x2c2E0B0c643aB9ad03adBe9140627A645E99E054",
+          "WBTC": "0x1d7fb99AED3C365B4DEf061B7978CE5055Dfc1e7"
+       },
+       "Aggregators": {
+          "WZEN": {
+             "Adapter": "0xdDE5dC81e40799750B92079723Da2acAF9e1C6D6",
+             "Feed": "0xA2aa501b19aff244D90cc15a4Cf739D2725B5729",
+             "FeedID": "0xd183ffe0155e8a55e7274155a14ea2e8b54059cef471f88fa3f7eb4b5d8dbc24"
+          },
+          "USDC": {
+             "Adapter": "0xEDc83309549e36f3c7FD8c2C5C54B4c8e5FA00FC",
+             "Feed": "0xA2aa501b19aff244D90cc15a4Cf739D2725B5729",
+             "FeedID": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a"
+          },
+          "WETH": {
+             "Adapter": "0xC043BA54F34C9fb3a0B45d22e2Ef1f171272Bc9D",
+             "Feed": "0xA2aa501b19aff244D90cc15a4Cf739D2725B5729",
+             "FeedID": "0xff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace"
+          },
+          "WBTC": {
+             "Adapter": "0x5C93B799D31d3d6a7C977f75FDB88d069565A55b",
+             "Feed": "0xA2aa501b19aff244D90cc15a4Cf739D2725B5729",
+             "FeedID": "0xc9d8b075a5c69303365ae23633d4e085199bf5c520a3b90fed1322a0342ffc33"
+          }
+       },
+       "Strategies": {
+          "StableStrategy": "0x280447337F2a33313477Ad356E1B4f714583e32c",
+          "VolatileStrategy": "0x17c2d5130620f4A97EC99a637BeBFce4ea8f26bb"
+       },
+       "Protocol": {
+          "Registry": "0x7CCE4c055BbC0Da1FeCb09F3d327b125FE19555a",
+          "Provider": "0x608Cb3b0ffD17B32103b61e616f17f1dD414766C",
+          "ReserveLogic": "0x21B2cFB4976E66B70040EFD9D48d37Dd857e327A",
+          "GenericLogic": "0xB80CF55DF5406300347928e319c7838B18BE74F2",
+          "ValidationLogic": "0x59158cb14fdBe57BB67d2df3ED7cDE22Af976CA7",
+          "LendingPool": "0x82F67ADf37C5c21D2F0FFAb90c169903B924bc57",
+          "LendingPoolProxy": "0x4243E86C361Ac86CA452B26B9476232e41d410c6",
+          "Configurator": "0x772378B401f5F1047137B5d5703Cc82Cf578F2A1",
+          "ConfiguratorProxy": "0x27B970bD0948F2B89af7e746da3069c55bb54BD6",
+          "AToken": "0x28644Ff237af4E524A0CaCd73F9Dd3BB9AaaDD1C",
+          "VariableDebtToken": "0x412f266140057Cae88Ebf8c395b8981c9599D45d",
+          "StableDebtToken": "0x57448a16b19D6e45Fd097f1021ef13d30Bd648ef",
+          "Oracle": "0x6C8668f60CD03442adb361A41f264152Ae17E475",
+          "LendingRateOracle": "0x82256Ed183663474c8EC2eeFBfCE4F9e259e91ef",
+          "WETHGateway": "0x0fdbD7BAB654B5444c96FCc4956B8DF9CcC508bE",
+          "CollateralManager": "0xd6470Bd1766CFee53c790C68254a1FBDa0AF87A1",
+          "ATokens": {
+             "yuzuZEN": "0xEB329420Fae03176EC5877c34E2c38580D85E069",
+             "yuzuUSDC": "0xA0cD598EF64856502aE294aa58bFEd90922Fb3c7",
+             "yuzuWETH": "0xbc25f58bA700452D66d1E025De6aBFd23a659265",
+             "yuzuWBTC": "0x770D3eD41f9F57eBB0463Bd435DF7FCc6f1e40Ce"
+          },
+          "StableDebtTokens": {
+             "sZEN": "0x78Ce389AA36c9d06a9c350C222E43EafD71Bf8E6",
+             "sUSDC": "0x3B48C8c17E0593D73a11C664B4a025643002132a",
+             "sWETH": "0x443cfF00Db0483E24d7Ac301c49b1e12ea3c56Fa",
+             "sWBTC": "0x1D39Ef8D9dE901267d3998EA524cC514E7b5C208"
+          },
+          "VariableDebtTokens": {
+             "vZEN": "0xBE8afE7E442fFfFE576B979D490c5ADb7823C3c6",
+             "vUSDC": "0x1d6492FaAcB1ea15641dD94FB9AB020056aBBC94",
+             "vWETH": "0x3f8F2929a2A461d4B59575F132016348CF526F25",
+             "vWBTC": "0x6c29836bE0DCD891C1c4CA77ff8F3A29e4A3Fa5E"
+          }
+       },
+       "Peripheral": {
+          "Rewards": {
+             "Rewarder": "0x018076d828FF756f26207c54f177F95a194f1613",
+             "RewardTokens": {
+                "YUZU": ""
+             },
+             "RewardVaults": {
+                "YUZU": ""
+             }
+          },
+          "ProtocolDataProvider": "0x43D80ED279968B85901B514A7BD678Bc847506C3",
+          "ATokenHelper": "0xcc2b339690491B6F00FdAe5D396845326eF2B725",
+          "StableAndVariableTokenHelper": "0xE038d965ac9b73Fc8DB15576eD3108C9aB2cC411",
+          "WalletBalanceProvider": "0xBaA0D8ECEFB6E82a7235205010C7Bb36E7662cc4",
+          "UiPoolDataProviderV2": "0xf9d3647e7663bE000d1C8462314A8931d10dC31E",
+          "UiIncentivesDataProvider": "",
+          "ChainlinkSourcesRegistry": "0x4dFF3518177A91d800A0ba39E00f620711c92A49",
+          "Treasury": "0x54F7D603881d850A83ec29e2A1DD61e4D0b8D58A",
+          "Timelock": "",
+          "Multisig": "",
+          "EmergencyMultisig": ""
+       }
+    }
+ }
