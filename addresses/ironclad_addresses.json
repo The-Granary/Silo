@@ -111,7 +111,7 @@
          "UiIncentivesDataProvider": "",
          "ChainlinkSourcesRegistry": "0xfF1B7120BaAA89ACDE6e45Ccfb2263A8416C20F0",
          "Treasury": "0xd93E25A8B1D645b15f8c736E1419b4819Ff9e6EF",
-         "Timelock": "",
+         "Timelock": "0x96bCFB86F1bFf315c13e00D850e2FAeA93CcD3e7",
          "Multisig": "0xD4D995787D39D70F35E694dC8306D7dB863234aC",
          "EmergencyMultisig": "0xD4D995787D39D70F35E694dC8306D7dB863234aC"
       }
