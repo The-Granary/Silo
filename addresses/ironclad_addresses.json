@@ -6,7 +6,8 @@
          "ETH": "0x4200000000000000000000000000000000000006",
          "ezETH": "0x2416092f143378750bb29b79eD961ab195CcEea5",
          "weETH": "0x028227c4dd1e5419d11Bb6fa6e661920c519D4F5",
-         "wrsETH": "0xe7903B1F75C534Dd8159b313d92cDCfbC62cB3Cd"
+         "wrsETH": "0xe7903B1F75C534Dd8159b313d92cDCfbC62cB3Cd",
+         "MBTC": "0x59889b7021243dB5B1e065385F918316cD90D46c"
       },
       "Aggregators": {
          "USDC": {
@@ -53,6 +54,10 @@
          "wrsETH": {
             "Adapter": "0x3a4ea21729f8556547E1243608872C8827DdEEd7",
             "Feed": "0x7C1DAAE7BB0688C9bfE3A918A4224041c7177256"
+         },
+         "MBTC": {
+            "Adapter": "0x2eADcC800506ce0ADCAca45a8F585253677Eaa3e",
+            "Feed": "0x7C1DAAE7BB0688C9bfE3A918A4224041c7177256"
          }
       },
       "Strategies": {
@@ -82,7 +87,8 @@
             "ironETH": "0x9c29a8eC901DBec4fFf165cD57D4f9E03D4838f7",
             "ironEzETH": "0x272cfccefbefbe1518cd87002a8f9dfd8845a6c4",
             "ironWeETH": "0x58254000ee8127288387b04ce70292b56098d55c",
-            "ironWrsETH": "0xe3f709397e87032e61f4248f53ee5c9a9abb6440"
+            "ironWrsETH": "0xe3f709397e87032e61f4248f53ee5c9a9abb6440",
+            "ironMBTC": "0xC17312076F48764d6b4D263eFdd5A30833E311DC"
          },
          "StableDebtTokens": {
             "sUSDC": "0xC40709470139657E6D80249c5cC998eFb44898C9",
@@ -90,7 +96,8 @@
             "sETH": "0x6f66C5C5e2FF94929582EaBfc19051F19ed9EB70",
             "sEzETH": "0x09ab5ca2d537b81520f78474d6ed43675451a7f8",
             "sWeETH": "0xc73ac4d26025622167a2bc67c93a855c1c6bdb24",
-            "sWrsETH": "0x383995fd2e86a2e067ffb31674aa0d1b370b39bd"
+            "sWrsETH": "0x383995fd2e86a2e067ffb31674aa0d1b370b39bd",
+            "sMBTC": "0x5183adca8472B7c999c310e4D5aAab04ad12E252"
          },
          "VariableDebtTokens": {
             "vUSDC": "0xe5415Fa763489C813694D7A79d133F0A7363310C",
@@ -98,7 +105,8 @@
             "vETH": "0x06D38c309d1dC541a23b0025B35d163c25754288",
             "vEzETH": "0x5eea43129024eee861481f32c2541b12ddd44c08",
             "vWeETH": "0x05249f9ba88f7d98fe21a8f3c460f4746689aea5",
-            "vWrsETH": "0x083e519e76fe7e68c15a6163279eaaf87e2addae"
+            "vWrsETH": "0x083e519e76fe7e68c15a6163279eaaf87e2addae",
+            "vMBTC": "0x3F332f38926b809670b3cac52Df67706856a1555"
          }
       },
       "Peripheral": {
