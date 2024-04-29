@@ -104,7 +104,7 @@
             "sWeETH": "0xc73ac4d26025622167a2bc67c93a855c1c6bdb24",
             "sWrsETH": "0x383995fd2e86a2e067ffb31674aa0d1b370b39bd",
             "sMBTC": "0x5183adca8472B7c999c310e4D5aAab04ad12E252",
-            "sweETHMode: "0xE6AD2c410c60ceD626Bc998bfcfEA934278538C5"
+            "sweETHMode": "0xE6AD2c410c60ceD626Bc998bfcfEA934278538C5"
          },
          "VariableDebtTokens": {
             "vUSDC": "0xe5415Fa763489C813694D7A79d133F0A7363310C",
