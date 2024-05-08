@@ -6,9 +6,9 @@
          "ETH": "0x4200000000000000000000000000000000000006",
          "ezETH": "0x2416092f143378750bb29b79eD961ab195CcEea5",
          "weETH": "0x028227c4dd1e5419d11Bb6fa6e661920c519D4F5",
-         "wrsETH": "0xe7903B1F75C534Dd8159b313d92cDCfbC62cB3Cd",
+         "weETHMode": "0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A",
          "MBTC": "0x59889b7021243dB5B1e065385F918316cD90D46c",
-         "weETHMode": "0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A"
+         "MODE": "0xDfc7C877a950e49D2610114102175A06C2e3167a"
       },
       "Aggregators": {
          "USDC": {
@@ -56,18 +56,20 @@
             "Adapter": "0xe18276E0158b2E2a02cF428253583E51DfC26b6b",
             "Feed": "0x7C1DAAE7BB0688C9bfE3A918A4224041c7177256"
          },
-         "wrsETH": {
-            "Adapter": "0x3a4ea21729f8556547E1243608872C8827DdEEd7",
-            "Feed": "0x7C1DAAE7BB0688C9bfE3A918A4224041c7177256"
-         },
          "MBTC": {
             "Adapter": "0x2eADcC800506ce0ADCAca45a8F585253677Eaa3e",
-            "Feed": "0x7C1DAAE7BB0688C9bfE3A918A4224041c7177256"
+            "Feed": "0x7C1DAAE7BB0688C9bfE3A918A4224041c7177256"            
+         },
+         "MODE": {
+            "Adapter": "0xA0a2aae7F21ded1dad17E43dD9A2372C175419F6",
+            "Feed": "0xA2aa501b19aff244D90cc15a4Cf739D2725B5729",
+            "FeedID": "0x0386e113cc716a7c6a55decd97b19c90ce080d9f2f5255ac78a0e26889446d1e"
          }
       },
       "Strategies": {
          "StableStrategy": "0xff50Bcda308254549Be68e5F3E79Cd6304D95478",
-         "VolatileStrategy": "0x33c62BC416309F010c4941163aBEa3725e4645BF"
+         "VolatileStrategy": "0x33c62BC416309F010c4941163aBEa3725e4645BF",
+         "ETHStrategy": "0x2756F9db44dB040437bF58E850A454a38E390b9C"
       },
       "Protocol": {
          "Registry": "0x5C93B799D31d3d6a7C977f75FDB88d069565A55b",
@@ -90,11 +92,11 @@
             "ironUSDC": "0xe7334Ad0e325139329E747cF2Fc24538dD564987",
             "ironUSDT": "0x02CD18c03b5b3f250d2B29C87949CDAB4Ee11488",
             "ironETH": "0x9c29a8eC901DBec4fFf165cD57D4f9E03D4838f7",
-            "ironEzETH": "0x272cfccefbefbe1518cd87002a8f9dfd8845a6c4",
-            "ironWeETH": "0x58254000ee8127288387b04ce70292b56098d55c",
-            "ironWrsETH": "0xe3f709397e87032e61f4248f53ee5c9a9abb6440",
+            "ironEzETH": "0x272CfCceFbEFBe1518cd87002A8F9dfd8845A6c4",
+            "ironWeETH": "0x58254000eE8127288387b04ce70292B56098D55C",
+            "ironWeETHMode": "0x4522DBc3b2cA81809Fa38FEE8C1fb11c78826268",
             "ironMBTC": "0xC17312076F48764d6b4D263eFdd5A30833E311DC",
-            "ironWeETHMode": "0x4522DBc3b2cA81809Fa38FEE8C1fb11c78826268"
+            "ironMODE": "0x0F4f2805a6d15dC534d43635314444181A0e82CD"
          },
          "StableDebtTokens": {
             "sUSDC": "0xC40709470139657E6D80249c5cC998eFb44898C9",
@@ -102,9 +104,9 @@
             "sETH": "0x6f66C5C5e2FF94929582EaBfc19051F19ed9EB70",
             "sEzETH": "0x09ab5ca2d537b81520f78474d6ed43675451a7f8",
             "sWeETH": "0xc73ac4d26025622167a2bc67c93a855c1c6bdb24",
-            "sWrsETH": "0x383995fd2e86a2e067ffb31674aa0d1b370b39bd",
+            "sWeETHMode": "0xE6AD2c410c60ceD626Bc998bfcfEA934278538C5",
             "sMBTC": "0x5183adca8472B7c999c310e4D5aAab04ad12E252",
-            "sweETHMode": "0xE6AD2c410c60ceD626Bc998bfcfEA934278538C5"
+            "sMODE": "0x2E714eB72cD8f709993B9fAF4347E1072ab17c8A"
          },
          "VariableDebtTokens": {
             "vUSDC": "0xe5415Fa763489C813694D7A79d133F0A7363310C",
@@ -112,9 +114,9 @@
             "vETH": "0x06D38c309d1dC541a23b0025B35d163c25754288",
             "vEzETH": "0x5eea43129024eee861481f32c2541b12ddd44c08",
             "vWeETH": "0x05249f9ba88f7d98fe21a8f3c460f4746689aea5",
-            "vWrsETH": "0x083e519e76fe7e68c15a6163279eaaf87e2addae",
+            "vWeETHMode": "0xF8D68E1d22FfC4f09aAA809B21C46560174afE9c",
             "vMBTC": "0x3F332f38926b809670b3cac52Df67706856a1555",
-            "vWeETHMode": "0xF8D68E1d22FfC4f09aAA809B21C46560174afE9c"
+            "vMODE": "0xe57Bf381Fc0a7C5e6c2A3A38Cc09de37b29CC4C3"
          }
       },
       "Peripheral": {
