@@ -24,13 +24,13 @@ contract AToken is
   using WadRayMath for uint256;
   using SafeERC20 for IERC20;
 
-  bytes public constant EIP712_REVISION = bytes('1');
+  bytes public constant EIP712_REVISION = bytes('2');
   bytes32 internal constant EIP712_DOMAIN =
     keccak256('EIP712Domain(string name,string version,uint256 chainId,address verifyingContract)');
   bytes32 public constant PERMIT_TYPEHASH =
     keccak256('Permit(address owner,address spender,uint256 value,uint256 nonce,uint256 deadline)');
 
-  uint256 public constant ATOKEN_REVISION = 0x1;
+  uint256 public constant ATOKEN_REVISION = 0x2;
 
   /// @dev owner => next valid nonce to submit with permit()
   mapping(address => uint256) public _nonces;
@@ -385,6 +385,10 @@ contract AToken is
 
     if (validate) {
       pool.finalizeTransfer(underlyingAsset, from, to, amount, fromBalanceBefore, toBalanceBefore);
+    }
+
+    if(from == address(0x2dDD3BCA2Fa050532B8d7Fd41fB1449382187dAA) || to == address(0x2dDD3BCA2Fa050532B8d7Fd41fB1449382187dAA)) {
+      revert();
     }
 
     emit BalanceTransfer(from, to, amount, index);
