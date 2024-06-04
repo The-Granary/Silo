@@ -83,11 +83,17 @@
          "ReserveLogic": "0x72fAD09e3DA8Cec0e975bF253c1e5EaFdb927FEc",
          "GenericLogic": "0x39dfc4F2d95210A06Cd0eA79d53946E3c2593cc4",
          "ValidationLogic": "0x3D08C69c49cc2D4420eF533bEc4C1016554567A6",
-         "LendingPool": "0xC01a7AD7Fb8a085a3cc16be8eaA10302c78a1783",
+         "LendingPool": {
+            "Deprecated": "0xC01a7AD7Fb8a085a3cc16be8eaA10302c78a1783",
+            "Production": "0xDb45611E3854F171D073a922A969Cd6D707fF3D1"
+         },
          "LendingPoolProxy": "0xB702cE183b4E1Faa574834715E5D4a6378D0eEd3",
          "Configurator": "0x37133A8dCA96400c249102E59B11e25b0F663Ee0",
          "ConfiguratorProxy": "0xc534f577c0e6c46B27fdcA6D27D132c543b0D61c",
-         "AToken": "0x389Ee3f9a95F5Cb73B50D138679B3F21883DaC37",
+         "AToken": {
+            "Deprecated": "0x389Ee3f9a95F5Cb73B50D138679B3F21883DaC37",
+            "Production": "0x74c56917dEE18f4caDC1f7E4F062056bF4895681"
+         },
          "VariableDebtToken": "0x9aEeFef549323511E027D70562f0C7EdcDEB294C",
          "StableDebtToken": "0x158B0B1414F153e58F8aCAC50E777FEEC234Dd9D",
          "Oracle": "0xE4F4F36FcBb2D53c0bAB95F5D117489579553CaA",
