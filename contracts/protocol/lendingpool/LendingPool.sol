@@ -49,7 +49,7 @@ contract LendingPool is VersionedInitializable, ILendingPool, LendingPoolStorage
   using PercentageMath for uint256;
   using SafeERC20 for IERC20;
 
-  uint256 public constant LENDINGPOOL_REVISION = 0x2;
+  uint256 public constant LENDINGPOOL_REVISION = 0x3;
   string private _signature;
 
   modifier whenNotPaused() {
@@ -64,6 +64,11 @@ contract LendingPool is VersionedInitializable, ILendingPool, LendingPoolStorage
 
   modifier onlyUiSigner {
     require(_addressesProvider.getUiSigner() == msg.sender, "Not UI Signer.");
+    _;
+  }
+
+  modifier onlyPoolAdmin {
+    require(_addressesProvider.getPoolAdmin() == msg.sender, Errors.CALLER_NOT_POOL_ADMIN);
     _;
   }
 
@@ -100,9 +105,19 @@ contract LendingPool is VersionedInitializable, ILendingPool, LendingPoolStorage
   function initialize(ILendingPoolAddressesProvider provider) public initializer {
     _addressesProvider = provider;
     _maxStableRateBorrowSizePercent = 2500;
-    _flashLoanPremiumTotal = 9;
+    _flashLoanPremiumTotal = 0;
     _maxNumberOfReserves = 128;
   }
+
+  /**
+   * @dev Sets the flashloan fee.
+   * @param flashLoanfee The flashloan fee amount
+   **/
+  function setFlashLoanFee(uint256 flashLoanfee) external onlyPoolAdmin {
+    require(flashLoanfee < 100, "Flashloan fee too large."); // 1% maximum fee
+    _flashLoanPremiumTotal = flashLoanfee;
+  }
+
 
   /**
    * @dev Deposits an `amount` of underlying asset into the reserve, receiving in return overlying aTokens.
@@ -278,6 +293,8 @@ contract LendingPool is VersionedInitializable, ILendingPool, LendingPoolStorage
     reserve.updateState();
 
     if (interestRateMode == DataTypes.InterestRateMode.STABLE) {
+      revert('STABLE_RATES_DISABLE');
+
       IStableDebtToken(reserve.stableDebtTokenAddress).burn(onBehalfOf, paybackAmount);
     } else {
       IVariableDebtToken(reserve.variableDebtTokenAddress).burn(
@@ -309,6 +326,7 @@ contract LendingPool is VersionedInitializable, ILendingPool, LendingPoolStorage
    * @param rateMode The rate mode that the user wants to swap to
    **/
   function swapBorrowRateMode(address asset, uint256 rateMode) external override whenNotPaused {
+    revert('STABLE_RATES_DISABLE');
     DataTypes.ReserveData storage reserve = _reserves[asset];
 
     (uint256 stableDebt, uint256 variableDebt) = Helpers.getUserCurrentDebt(msg.sender, reserve);
@@ -362,6 +380,8 @@ contract LendingPool is VersionedInitializable, ILendingPool, LendingPoolStorage
    * @param user The address of the user to be rebalanced
    **/
   function rebalanceStableBorrowRate(address asset, address user) external override whenNotPaused {
+    revert('STABLE_RATES_DISABLE');
+
     DataTypes.ReserveData storage reserve = _reserves[asset];
 
     IERC20 stableDebtToken = IERC20(reserve.stableDebtTokenAddress);
@@ -898,6 +918,8 @@ contract LendingPool is VersionedInitializable, ILendingPool, LendingPoolStorage
 
     bool isFirstBorrowing = false;
     if (DataTypes.InterestRateMode(vars.interestRateMode) == DataTypes.InterestRateMode.STABLE) {
+      revert('STABLE_RATES_DISABLE');
+      
       currentStableRate = reserve.currentStableBorrowRate;
 
       isFirstBorrowing = IStableDebtToken(reserve.stableDebtTokenAddress).mint(
