@@ -1,4 +1,3 @@
-
 {
    "Mode": {
       "Reserves": {
@@ -14,62 +13,129 @@
       },
       "Aggregators": {
          "USDC": {
-            "Deprecated": {
-               "Adapter": "0x6A0406B8103Ec68EE9A713A073C7bD587c5e04aD",
-               "Feed": "0xA2aa501b19aff244D90cc15a4Cf739D2725B5729",
-               "FeedID": "0xeaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a"
+            "Production" : {
+               "Adapter": "0x3a099879342eD7876fDE970cCe2F1c01f1A6a6c9",
+               "Feed": "0xa790a882bB695D0286C391C0935a05c347290bdB"
             },
-            "Production": {
+            "Deprecated": {
                "Adapter": "0xe12e084FC4550387cB2b252b5F289BA38b755354",
                "Feed": "0x7C1DAAE7BB0688C9bfE3A918A4224041c7177256"
-            } 
+            }
          },
          "USDT": {
-            "Deprecated": {
-               "Adapter": "0x872B9e8aea5D65Fbf29b8B05bfA4AA3fE94cC11f",
-               "Feed": "0xA2aa501b19aff244D90cc15a4Cf739D2725B5729",
-               "FeedID": "0x2b89b9dc8fdf9f34709a5b106b472f0f39bb6ca9ce04b0fd7f2e971688e2e53b"
+            "Production" : {
+               "Adapter": "0x02587a2627d4f39Dd3931BC0dEA541F5EDC8881F",
+               "Feed": "0xF00249f594f11c3F98F2D73433274D10098906B6"
             },
-            "Production": {
+            "Deprecated": {
                "Adapter": "0xb839c82630A36b5f7a5320cd0814886bF4900F1e",
                "Feed": "0x7C1DAAE7BB0688C9bfE3A918A4224041c7177256"
-            } 
+            }
          },
          "ETH": {
-            "Deprecated": {
-               "Adapter": "0xdDE5dC81e40799750B92079723Da2acAF9e1C6D6",
-               "Feed": "0xA2aa501b19aff244D90cc15a4Cf739D2725B5729",
-               "FeedID": "0xff61491a931112ddf1bd8147cd1b641375f79f5825126d665480874634fd0ace"
+            "Production" : {
+               "Adapter": "0x6F18C77EaFc61fC5F97c8485e726ad6347fB86fd",
+               "Feed": "0xa47Fd122b11CdD7aad7c3e8B740FB91D83Ce43D1"
             },
-            "Production": {
+            "Deprecated": {
                "Adapter": "0xce7201E040abA46d6ce97aacEb786a66bCf8d0C0",
                "Feed": "0x7C1DAAE7BB0688C9bfE3A918A4224041c7177256"
-            }         
+            }     
          },
          "ezETH": {
-            "Adapter": "0xd3eA00cf1592c9D06a62afdE3A2e6b3AB54bd930",
-            "Feed": "0x7C1DAAE7BB0688C9bfE3A918A4224041c7177256"
+            "Production": {
+               "Wrapper": {
+                  "EzethETH": {
+                     "Adapter": "0xD0f3A9A3d249b409E9Ef08b8F86cB8BbE0D4096D",
+                     "Feed": "0x3621b06BfFE478eB481adf65bbF139A052Ed7321"
+                  },
+                  "EthUSD":{
+                     "Adapter": "0x6F18C77EaFc61fC5F97c8485e726ad6347fB86fd",
+                     "Feed": "0xa47Fd122b11CdD7aad7c3e8B740FB91D83Ce43D1"
+                  } 
+               },
+               "Adapter": "0x6451cD23ad85c8cF341b600EbC40ff31D3bB13f3"
+            },
+            "Deprecated": {
+               "Adapter": "0xd3eA00cf1592c9D06a62afdE3A2e6b3AB54bd930",
+               "Feed": "0x7C1DAAE7BB0688C9bfE3A918A4224041c7177256"
+            }
          },
          "weETH": {
-            "Adapter": "0xe18276E0158b2E2a02cF428253583E51DfC26b6b",
-            "Feed": "0x7C1DAAE7BB0688C9bfE3A918A4224041c7177256"
+            "Production": {
+               "Wrapper": {
+                  "WeethETH": {
+                     "Adapter": "0x1b10eA2401353F4C249465101e75bE1a9915A2A4",
+                     "Feed": "0x672020bd166A51A79Ada022B51C974775d17e0f6"
+                  },
+                  "EthUSD":{
+                     "Adapter": "0x6F18C77EaFc61fC5F97c8485e726ad6347fB86fd",
+                     "Feed": "0xa47Fd122b11CdD7aad7c3e8B740FB91D83Ce43D1"
+                  } 
+               },
+               "Adapter": "0xc63C9479945d5D001464C24C6299c3DA62dbb445"
+            },
+            "Deprecated": {
+               "Adapter": "0xe18276E0158b2E2a02cF428253583E51DfC26b6b",
+               "Feed": "0x7C1DAAE7BB0688C9bfE3A918A4224041c7177256"
+            }
          },
          "weETHMode": {
-            "Adapter": "0xe18276E0158b2E2a02cF428253583E51DfC26b6b",
-            "Feed": "0x7C1DAAE7BB0688C9bfE3A918A4224041c7177256"
+            "Production": {
+               "Wrapper": {
+                  "WeethETH": {
+                     "Adapter": "0x1b10eA2401353F4C249465101e75bE1a9915A2A4",
+                     "Feed": "0x672020bd166A51A79Ada022B51C974775d17e0f6"
+                  },
+                  "EthUSD":{
+                     "Adapter": "0x6F18C77EaFc61fC5F97c8485e726ad6347fB86fd",
+                     "Feed": "0xa47Fd122b11CdD7aad7c3e8B740FB91D83Ce43D1"
+                  } 
+               },
+               "Adapter": "0xc63C9479945d5D001464C24C6299c3DA62dbb445"
+            },
+            "Deprecated": {
+               "Adapter": "0xe18276E0158b2E2a02cF428253583E51DfC26b6b",
+               "Feed": "0x7C1DAAE7BB0688C9bfE3A918A4224041c7177256"
+            }
          },
          "MBTC": {
-            "Adapter": "0x2eADcC800506ce0ADCAca45a8F585253677Eaa3e",
-            "Feed": "0x7C1DAAE7BB0688C9bfE3A918A4224041c7177256"            
+            "Production": {
+               "Adapter": "0x49eC6249e12ac555eA6D8b8bC47fe3e286949c02",
+               "Feed": "0x73AB44615772a0d31dB48A87d7F4F81a3601BceB"
+            },
+            "Deprecated": {
+               "Adapter": "0x2eADcC800506ce0ADCAca45a8F585253677Eaa3e",
+               "Feed": "0x7C1DAAE7BB0688C9bfE3A918A4224041c7177256" 
+            }       
          },
          "wrsETH": {
-            "Adapter": "0x3a4ea21729f8556547E1243608872C8827DdEEd7",
-            "Feed": "0x7C1DAAE7BB0688C9bfE3A918A4224041c7177256"            
+            "Production": {
+               "Wrapper": {
+                  "WrsethETH": {
+                     "Adapter": "0xa305b5A6D74aa00759bfadf03D075E8FdEE4d218",
+                     "Feed": "0xc30e51C9EDD92B9eeF45f281c712faaAf59912BA"
+                  },
+                  "EthUSD":{
+                     "Adapter": "0x6F18C77EaFc61fC5F97c8485e726ad6347fB86fd",
+                     "Feed": "0xa47Fd122b11CdD7aad7c3e8B740FB91D83Ce43D1"
+                  } 
+               },
+               "Adapter": "0xc5c6A16190ed9CE04f381672E4CBfa3C436Cc7d8"
+            },
+            "Deprecated": {
+               "Adapter": "0x3a4ea21729f8556547E1243608872C8827DdEEd7",
+               "Feed": "0x7C1DAAE7BB0688C9bfE3A918A4224041c7177256" 
+            }           
          },
          "MODE": {
-            "Adapter": "0xA0a2aae7F21ded1dad17E43dD9A2372C175419F6",
-            "Feed": "0xA2aa501b19aff244D90cc15a4Cf739D2725B5729",
-            "FeedID": "0x0386e113cc716a7c6a55decd97b19c90ce080d9f2f5255ac78a0e26889446d1e"
+            "Production": {
+               "Adapter": "0x8e553F4D24a16631027535246978eF3F0758D048",
+               "Feed": "0xecF094e9C935f01B542B4DA40861f3087698EA0D"
+            },
+            "Deprecated": {
+               "Feed": "0x8dd2D85C7c28F43F965AE4d9545189C7D022ED0e"
+            }
          }
       },
       "Strategies": {
@@ -83,11 +149,17 @@
          "ReserveLogic": "0x72fAD09e3DA8Cec0e975bF253c1e5EaFdb927FEc",
          "GenericLogic": "0x39dfc4F2d95210A06Cd0eA79d53946E3c2593cc4",
          "ValidationLogic": "0x3D08C69c49cc2D4420eF533bEc4C1016554567A6",
-         "LendingPool": "0xC01a7AD7Fb8a085a3cc16be8eaA10302c78a1783",
+         "LendingPool": {
+            "Deprecated": "0xC01a7AD7Fb8a085a3cc16be8eaA10302c78a1783",
+            "Production": "0xDb45611E3854F171D073a922A969Cd6D707fF3D1"
+         },
          "LendingPoolProxy": "0xB702cE183b4E1Faa574834715E5D4a6378D0eEd3",
          "Configurator": "0x37133A8dCA96400c249102E59B11e25b0F663Ee0",
          "ConfiguratorProxy": "0xc534f577c0e6c46B27fdcA6D27D132c543b0D61c",
-         "AToken": "0x389Ee3f9a95F5Cb73B50D138679B3F21883DaC37",
+         "AToken": {
+            "Deprecated": "0x389Ee3f9a95F5Cb73B50D138679B3F21883DaC37",
+            "Production": "0x74c56917dEE18f4caDC1f7E4F062056bF4895681"
+         },
          "VariableDebtToken": "0x9aEeFef549323511E027D70562f0C7EdcDEB294C",
          "StableDebtToken": "0x158B0B1414F153e58F8aCAC50E777FEEC234Dd9D",
          "Oracle": "0xE4F4F36FcBb2D53c0bAB95F5D117489579553CaA",
@@ -132,18 +204,51 @@
          "Rewards": {
             "Rewarder": "0xC043BA54F34C9fb3a0B45d22e2Ef1f171272Bc9D",
             "RewardTokens": {
-               "IRON": ""
+               "oICL": "0x3B6eA0fA8A487c90007ce120a83920fd52b06f6D",
+               "MODE": "0xDfc7C877a950e49D2610114102175A06C2e3167a"
             },
             "RewardVaults": {
-               "IRON": ""
+               "oICL": "0x836B1C8D082C5e1f7d83c2C81a221d30BBc7039b",
+               "MODE": "0xE51a7937A669cB4f9291A03FC44E407302f4ce16"
             }
+         },
+         "Options": {
+            "oICL": {
+               "Proxy": "0x3B6eA0fA8A487c90007ce120a83920fd52b06f6D",
+               "Implementation": "0x3bbc5c0B5c564eAD5e9586F93c67BcB307cB8CAE"            
+            },
+            "Exercise": "0xcb727532e24dFe22E74D3892b998f5e915676Da8"
+         },  
+         "Reliquary": {
+            "Reliquary": "0x1ED3903e792Ff2a3d6A86a9B7930843364bA20E5",
+            "LinearPlateauCurve": "0x8Da6d938Ca8Ae311811027071c35ad0035E5Ab41",
+            "NFTDescriptor": "0x2468246cAA105d65b58bDacA216AB7a4b5f73D28",
+            "Rewarders": {
+               "WETH": {
+                  "ParentRollingRewarder": "0xB42810ffEcc2a14D40B7fA2B418c79D9E5AAC5C6",
+                  "ChildRollingRewarder": "0xb08d7643c5fb22fd5b819ca3302b3f89c751addf"
+               }
+            },
+            "Helpers": {
+               "oICLOracle": "0xa4cad79500A09F2B83cB9b865723C2976f21959f",
+               "ICLOracle": "0x27d72395A9b6170B846DC9283D5B041a4413426a",
+               "ICLPriceInMODEOracle": "0xDaA2c821428f62e1B08009a69CE824253CCEE5f9",
+               "LpOracle": "0x7D51427f8c53Ae2321Ed1D40D2234C39076581d2",
+               "IclFrontendPriceFeed": "0x18e3eA9Aa38891025907Eb1f75Db4bB4675cD356",
+               "ReliquaryUIDataProvider": "0x1D122378D864adc847E318434811A49663210DB5",
+               "PriceDataProvider": "0x8d5c9F79c3cBB349696bf40EC285051E3B7dBF8B"
+            }
+         },
+         "Leverager": {
+            "Deprecated": "0x2dDD3BCA2Fa050532B8d7Fd41fB1449382187dAA",
+            "Production": "0x9A6Add057603d3366ac3cA97Fe80126b7f96af05"
          },
          "ProtocolDataProvider": "0x29563f73De731Ae555093deb795ba4D1E584e42E",
          "ATokenHelper": "0x7F8face1fBa2901Cb46F8a87A9E1717eCb215210",
          "StableAndVariableTokenHelper": "0x8429d0AFade80498EAdb9919E41437A14d45A00B",
          "WalletBalanceProvider": "0x10615D451a5b91C92ce8538703E7AABA5d5cCC4D",
          "UiPoolDataProviderV2": "0xe1752ae13C5FA44bef8C7352De499D95A1d56Cd8",
-         "UiIncentivesDataProvider": "",
+         "UiIncentivesDataProvider": "0x7024aA60286264ab0D20bE9920de68A9A53F8F84",
          "ChainlinkSourcesRegistry": "0xfF1B7120BaAA89ACDE6e45Ccfb2263A8416C20F0",
          "Treasury": "0xd93E25A8B1D645b15f8c736E1419b4819Ff9e6EF",
          "Timelock": "0x96bCFB86F1bFf315c13e00D850e2FAeA93CcD3e7",
