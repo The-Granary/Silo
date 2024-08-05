@@ -1,0 +1,86 @@
+{
+   "Fraxtal": {
+      "Reserves": {
+         "FRAX": "0xFc00000000000000000000000000000000000001",
+         "FXS": "0xFc00000000000000000000000000000000000002",
+         "frxETH": "0xFC00000000000000000000000000000000000006",
+         "sfrxETH": "0xFC00000000000000000000000000000000000005",
+         "sFRAX": "0xfc00000000000000000000000000000000000008",
+         "ezETH": "0x2416092f143378750bb29b79eD961ab195CcEea5"
+      },
+      "Aggregators": {
+         "FRAX": "0xa41107f9259bB835275eaCaAd8048307B80D7c00",
+         "FXS": "0xbf228a9131AB3BB8ca8C7a4Ad574932253D99Cd1",
+         "frxETH": "0x89e60b56efD70a1D4FBBaE947bC33cae41e37A72",
+         "sfrxETH": "0x2eADcC800506ce0ADCAca45a8F585253677Eaa3e",
+         "sFRAX": "0x5c0b1D15D468dA68f516A1816C9F1AF88cbA7f40",
+         "ezETH": "0x3Ce65736cEb9037cc82CD35AaAc6042c5f9d0E73"
+      },
+      "Strategies": {
+         "StableStrategy": "0xe5Dc7e2d22898Bf9959a610b38c1A24e61e96149",
+         "VolatileStrategy": "0x7366C31311cE84E0009334d2731E262F17f8b217",
+         "FraxPiStrategy": "0x03932C053e07bf111c9BCFF26bD25F36e3c37874"
+      },
+      "Protocol": {
+         "Registry": "0xcD0c5BA79018F37898A58eF56d197828d84f36Ad",
+         "Provider": "0x198147E0A57F009E337EA3F0E5FE9bbCa3ED1975",
+         "ReserveLogic": "0xDbc66F1Cb35B0c6F9147Edf9dEa90B8F88575a72",
+         "GenericLogic": "0x5cd957bbC79639Ef66262E929E5A031Aa7b52810",
+         "ValidationLogic": "0x5F272Ee6348BDE137D9a6c640c42DDcF0dE3D0aA",
+         "LendingPool": "0xFA47b56E9EB5fa979cec3D4c7AC319eDFBA4F47C",
+         "LendingPoolProxy": "0xc1c5312BCAA6cb2ada949553AF75802fe48d5228",
+         "Configurator": "0x7A191973Eaf8cdcC4dE683d10C1E11c5a5bc717D",
+         "ConfiguratorProxy": "0x34ff2CA8c7C09c2f3150cc99f255EE3bB718bC97",
+         "AToken": "0x09653Aa6fFF31bC0a5Aa37eB8EA1445c987535ad",
+         "VariableDebtToken": "0xD55aba1653531678B612D809C296de2FDf56eE92",
+         "StableDebtToken": "0x250b47F097EC51225eCE85B13273B70a4233E1e9",
+         "Oracle": "0x7c8E7536c5044E1B3693eB564C6dE3a3CE58bbDa",
+         "LendingRateOracle": "0x38563D3930EB3Eda46614d0a75a94E912F82b779",
+         "WETHGateway": "0x75D9F91818c9401AF70D5443a240E2228339CCC2",
+         "CollateralManager": "0xe18276E0158b2E2a02cF428253583E51DfC26b6b",
+         "ATokens": {
+            "glyphFRAX": "0x5E76562a265Aa595AD7377b11d17Cb0237970F20",
+            "glyphFXS": "0x471e51c7DAA092c07d1Fd75BAE492f3d76813620",
+            "glyphfrxETH": "0x6D24Bfa1A4F68fA62dD7989D8961d1F0C251dC69",
+            "glyphsFRAX": "0xF70b678FA8779F406D0e608B77E2290a8b4ff123",
+            "glyphezETH": "0xF3C851f7fa132A38f30445bC4485679CE286ab4D"
+         },
+         "StableDebtTokens": {
+            "sFRAX": "0xa91878922f4Eac099554483585a6c5D801A4Bc47",
+            "sFXS": "0xE8457d0bEf0E5DaeA113be203AF996652Fb90Eb8",
+            "sfrxETH": "0x5afAE4E1f6e32715504cDba3BdFBceE5c8EbE32C",
+            "sSFRAX": "0xf7f7aB56DdCd67E30C6A1f4FD9d15f5F291502E7",
+            "sezETH": "0x588B4D03560B40D41F0a0b251273e6Db548F0a58"
+         },
+         "VariableDebtTokens": {
+            "vFRAX": "0x1a5eECC807984e06178Fa88865fAEc3e51794553",
+            "vFXS": "0xaceCBEfEA85a58d3B79ba378F93c16ED73bffD3e",
+            "vfrxETH": "0xB77A91e2161D5eF8b2EE9c592E3857D1E277d756",
+            "vsFRAX": "0xd01eFDc89b4DD9D2D047861E5E6edC6671b727d0",
+            "vezETH": "0x6e5BA2f40a49caC8E00F03028f5e43Fdb9170A38"
+         }
+      },
+      "Peripheral": {
+         "Rewards": {
+            "Rewarder": "0x37682435b24cc7bA3767c4AbE3B81bfA65eC587d",
+            "RewardTokens": {
+               "GLYPH": ""
+            },
+            "RewardVaults": {
+               "GLYPH": ""
+            }
+         },
+         "ProtocolDataProvider": "0xE767cD4871C5749e59451CAEbc3f1062EaF40958",
+         "ATokenHelper": "0x1958be6b2DabEfF36FF0665149E667717F5E573a",
+         "StableAndVariableTokenHelper": "0xF88Baf18FAB7e330fa0C4F83949E23F52FECECce",
+         "WalletBalanceProvider": "0x417cA1091Fa4C329cEe19452851dff46902440a5",
+         "UiPoolDataProviderV2": "0x2Aa6853AE999D47f86290022e5EBE0Df9ab747eA",
+         "UiIncentivesDataProvider": "0xA0DE73bf3e754F8751c2CF21079526D7e0236574",
+         "ChainlinkSourcesRegistry": "0xE527A473497F5348a12c78C4689e4af7f04e76a2",
+         "Treasury": "0xd3eA00cf1592c9D06a62afdE3A2e6b3AB54bd930",
+         "Timelock": "0xC4B227Eb5087013e0D918236aA045803bbAca425",
+         "Multisig": "0x31d5F11b4db22445bcf1808589CdCc83dc3f7788",
+         "EmergencyMultisig": "0x31d5F11b4db22445bcf1808589CdCc83dc3f7788"
+      }
+   }
+}
