@@ -1,0 +1,134 @@
+{  
+   "Scroll": {
+      "Reserves": {
+         "STONE": "0x80137510979822322193FC997d400D5A6C747bf7",
+         "ETH": "0x5300000000000000000000000000000000000004",
+         "wstETH": "0xf610A9dfB7C89644979b4A0f27063E9e7d7Cda32",
+         "USDC": "0x06eFdBFf2a14a7c8E15944D1F4A48F9F95F663A4",
+         "USDT": "0xf55BEC9cafDbE8730f096Aa55dad6D22d44099Df",
+         "weETH": "0x01f0a31698C4d065659b9bdC21B3610292a1c506",
+         "wrsETH": "0xa25b25548B4C98B0c7d3d27dcA5D5ca743d68b7F"
+      },
+      "Aggregators": {
+         "STONE": "0xD1D60f675fbb6cE30d7305CFe244152317003004",
+         "ETH": "0x6bF14CB0A831078629D993FDeBcB182b21A8774C",
+         "wstETH": "0x3a4ea21729f8556547E1243608872C8827DdEEd7",
+         "USDC": "0x43d12Fb3AfCAd5347fA764EeAB105478337b7200",
+         "USDT": "0xf376A91Ae078927eb3686D6010a6f1482424954E",
+         "weETH": "0x874f9ad0eA30b875dDd2e1ACAe1666aAbEC9eDd1",
+         "wrsETH": "0xA071E099982F584421d6982e4Eb860974D87CE26"
+      },
+      "Strategies": {
+         "StableStrategy": "0x34B9d01A4B21a65246771C7d6Ba0FcF8284bA700",
+         "VolatileStrategy": "0xE1537feF008944D1c8DcAfBAcE4DC76D31D22DC5",
+         "ETHStrategy": "0x067AaC7397a5370A93d4c85Fe3e5A02caCBe9915"
+      },
+      "Protocol": {
+         "Registry": "0xBc6DE4458b7D6fbf82240ce8cC0CA6a2f4986eb5",
+         "Provider": "0x86f53066645DFfF98FD8CE64220f2A93B55518ce",
+         "ReserveLogic": "0x198147E0A57F009E337EA3F0E5FE9bbCa3ED1975",
+         "GenericLogic": "0x88693574d6d925b29FFC6DB08B89E63c7EB8a853",
+         "ValidationLogic": "0x673cCB1896937aa955C1D4732C2aD52b837E71EA",
+         "LendingPool": "0x3ca8E0B0D8aed837D9EACe80E13C9d54bd8293B3",
+         "LendingPoolProxy": "0x4cE1A1eC13DBd9084B1A741b036c061b2d58dABf",
+         "Configurator": "0xFA47b56E9EB5fa979cec3D4c7AC319eDFBA4F47C",
+         "ConfiguratorProxy": "0xF797f836f31fb42fa7c081e54C1Deaf313a13B54",
+         "AToken": "0x7A191973Eaf8cdcC4dE683d10C1E11c5a5bc717D",
+         "VariableDebtToken": "0x512f582fFCCF3C14bD872152EeAe60866dCB2A1e",
+         "StableDebtToken": "0x642cc899652B068D1bED786c4B060Ec1027D1563",
+         "Oracle": "0x1958be6b2DabEfF36FF0665149E667717F5E573a",
+         "LendingRateOracle": "0x250b47F097EC51225eCE85B13273B70a4233E1e9",
+         "WETHGateway": "0x204f5ccC7b5217B8477C8FA45708144FB0a61831",
+         "CollateralManager": "0xe12e084FC4550387cB2b252b5F289BA38b755354",
+         "ATokens": {
+            "loreUSDC": "0x19624e5e4aD3F8de2ab516C67645Bb5B79EcfFE6",
+            "loreUSDT": "0xC5776416Ea3e88e04E95bCd3fF99b27902da7892",
+            "loreETH": "0xF1792Ec678E2c90f44b8FcD137cc373280894927",
+            "loreSTONE": "0x4f908f7E51E5f03C937452F74c467Bf071858Aaf",
+            "loreWstETH": "0xa847eaa620c3ddd8E25909eaA0CC94659ABE8939",
+            "loreWeETH": "0x80E0Fb6B416E1Ae9bBD02A9bC6A6D10C9E9D51B7",
+            "loreWrsETH": "0xc28A5a35e98bCaC257440A4759B0E7Da3b35Ed69"
+         },
+         "StableDebtTokens": {
+            "sUSDC": "0xC852ee24d51EbD1cd9371ed2dADDB46feBc2b0FA",
+            "sUSDT": "0x7Be4c4DEFB1c9Fe04a48150F0e5e416Ba3171F28",
+            "sETH": "0xB6A1bf12b59D7009637AdD07d3e5002382Fe218D",
+            "sSTONE": "0xA0ffE748e72507B89FDAB163241a9D76FE2B6456",
+            "sWstETH": "0x5431D6a6CAbECBFA5f0bBf1b9529382D375eE919",
+            "sWeETH": "0xdC80674646De58A89702301a14C5b0C435816D3e",
+            "sWrsETH": "0xa0ACB749F120Ab37bCBa371D2031B80C9f656421"
+         },
+         "VariableDebtTokens": {
+            "vUSDC": "0x8eC1B2570809cb5C6b10a85d952D40B8cF0DeDDC",
+            "vUSDT": "0x63591C6bDE1dEB1FcA7FCEA7b1AAeF96e8260f39",
+            "vETH": "0xb41aDc2a1189810989D45d92417cc558E8EEe66D",
+            "vSTONE": "0xF2A1fC52D4cFb59789faA7625C481984D44D6D21",
+            "vWstETH": "0xF38164575228DbC6EC4e38E460EDB4B8Ece86c33",
+            "vWeETH": "0x9d4725c7E14bFcaE7CfB03925cbc3c1C1dE6CDB0",
+            "vWrsETH": "0xBD5e7Ae1dBF72FE0ea15207Fae21A4396246468c"
+         }
+      },
+      "Peripheral": {
+         "Rewards": {
+            "Rewarder": "0x3E45df33Adf1b81E7B45cA468E8e41496a66c837",
+            "RewardTokens": {
+               "oLORE": "0xf270bFe3F97655Fff1D89aFf50a8E1dc381941b5",
+               "LORE": "0x549423E69576b80E91dC836ae37e04209660c4ec"
+            },
+            "RewardVaults": {
+               "oLORE": "0x39A255F6Dbc78342eBb6AABaf127ff56006cbe05",
+               "LORE": "0x66B3576868E82A41861cD3e6E10ba87239d26de9"
+            }
+         },
+         "Options": {
+            "LORE": {
+               "Proxy": "0x549423E69576b80E91dC836ae37e04209660c4ec",
+               "Implementation": "0xD3147dE2927C31031857Ae7eB92d8E370cA2B54b"            
+            },
+            "oLORE": {
+               "Proxy": "0xf270bFe3F97655Fff1D89aFf50a8E1dc381941b5",
+               "Implementation": "0x1eC7D31e5144e360DdFB8988dC0B982626160010"            
+            },
+            "LoreWethLP": "0x740EE3Ca03CA3f744CD510927b23A1F56966EBab",
+            "Exercise": "0x9e864C08564506AfDA9A584B5388907b1dD67FAa"
+         },  
+         "Reliquary": {
+            "Reliquary": "0xCfcD1A9221434642b221273949361E768431EE13",
+            "LinearPlateauCurve": "0x1b3E46d3ACa1ae8d8c0008bEf0150d00dEb8AA77",
+            "NFTDescriptor": "0xa1e02B54c2BD632049cD54712ca48E65D2b00b84",
+            "Rewarders": {
+               "WETH": {
+                  "ParentRollingRewarder": "0x1991A56B3B1d9272Fe09fA02eA80A192D1925Ce9",
+                  "ChildRollingRewarder": "0xa756519222eC4f81a9DCFE736b8B03a837f366bc"
+               }
+            },
+            "Helpers": {
+               "oLOREOracle": {
+                  "Deprecated": "0x608Cb3b0ffD17B32103b61e616f17f1dD414766C",
+                  "Production": "0x9efe524cAdeecaaf11B47c4FA5a2946e5eED1DE6"
+               },
+               "LOREOracle": "0xFa24243320ae1b8a121eF8841fbFde3CbC3C5614",
+               "LOREPriceInETHOracle": "0xeb3DF52E0254e22434f044C3b62291919501Ee7D",
+               "LpOracle": "0xEa8c16A1f50C59e755EA6caEE3E93c7F4Ab46373",
+               "LoreFrontendPriceFeed": "0xF3118044bcBd6D82b684370799B4fb9D0D4C2049",
+               "ReliquaryUIDataProvider": "0xe48c339D9a2F2c28C0833772E3360762176681fb",
+               "PriceDataProvider": {
+                  "Deprecated": "0x30a5A41C3c903A04f7Fc1b9c7A58998Ed038f54C",
+                  "Production": "0xB80CF55DF5406300347928e319c7838B18BE74F2"
+               }
+            }
+         },
+         "Leverager": "0x9df4Ac62F9E435DbCD85E06c990a7f0ea32739a9",
+         "ProtocolDataProvider": "0xb17844F6E50f4eE8f8FeC7d9BA200B0E034b8236",
+         "ATokenHelper": "0xd3eA00cf1592c9D06a62afdE3A2e6b3AB54bd930",
+         "StableAndVariableTokenHelper": "0xD55aba1653531678B612D809C296de2FDf56eE92",
+         "WalletBalanceProvider": "0xe18276E0158b2E2a02cF428253583E51DfC26b6b",
+         "UiPoolDataProviderV2": "0x3CC0a623f1aFFab5D5514A453965cE8C80B45549",
+         "UiIncentivesDataProvider": "0xE527A473497F5348a12c78C4689e4af7f04e76a2",
+         "ChainlinkSourcesRegistry": "0x417cA1091Fa4C329cEe19452851dff46902440a5",
+         "Treasury": "0x5F272Ee6348BDE137D9a6c640c42DDcF0dE3D0aA",
+         "Timelock": "0x2dDD3BCA2Fa050532B8d7Fd41fB1449382187dAA",
+         "Multisig": "0x159cC26BcAB2851835e963D0C24E1956b2279Ca9"
+      }
+   }
+}
