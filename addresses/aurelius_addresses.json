@@ -65,7 +65,8 @@
             "ETHStrategy": "0xa0a2aae7f21ded1dad17e43dd9a2372c175419f6",
             "METHStrategy": "0xa0a2aae7f21ded1dad17e43dd9a2372c175419f6",
             "WBTCStrategy": "0xa0a2aae7f21ded1dad17e43dd9a2372c175419f6",
-            "FBTCStrategy": "0xa0a2aae7f21ded1dad17e43dd9a2372c175419f6"
+            "FBTCStrategy": "0xa0a2aae7f21ded1dad17e43dd9a2372c175419f6",
+            "CMETHStrategy": "0xa0a2aae7f21ded1dad17e43dd9a2372c175419f6"
         },
         "Protocol": {
             "Registry": "0x295AAA60d155E81731818315269E702228348C29",
