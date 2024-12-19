@@ -9,7 +9,8 @@
          "weETHMode": "0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A",
          "MBTC": "0x59889b7021243dB5B1e065385F918316cD90D46c",
          "wrsETH": "0xe7903B1F75C534Dd8159b313d92cDCfbC62cB3Cd",
-         "MODE": "0xDfc7C877a950e49D2610114102175A06C2e3167a"
+         "MODE": "0xDfc7C877a950e49D2610114102175A06C2e3167a",
+         "sUSDe": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2"
       },
       "Aggregators": {
          "USDC": {
@@ -136,6 +137,9 @@
             "Deprecated": {
                "Feed": "0x8dd2D85C7c28F43F965AE4d9545189C7D022ED0e"
             }
+         },
+         "sUSDe": {
+            "Feed": "0x5bf557949F3E9a516200aF7AE1d66113964d4d6E"
          }
       },
       "Strategies": {
@@ -175,7 +179,8 @@
             "ironWeETHMode": "0x4522DBc3b2cA81809Fa38FEE8C1fb11c78826268",
             "ironMBTC": "0xC17312076F48764d6b4D263eFdd5A30833E311DC",
             "ironWrsETH": "0xe3f709397e87032E61f4248f53Ee5c9a9aBb6440",
-            "ironMODE": "0x0F4f2805a6d15dC534d43635314444181A0e82CD"
+            "ironMODE": "0x0F4f2805a6d15dC534d43635314444181A0e82CD",
+            "ironSUSDe": "0x0Eb9C75689d7dB53727723E42263B44d7A31618c"
          },
          "StableDebtTokens": {
             "sUSDC": "0xC40709470139657E6D80249c5cC998eFb44898C9",
@@ -186,7 +191,8 @@
             "sWeETHMode": "0xE6AD2c410c60ceD626Bc998bfcfEA934278538C5",
             "sMBTC": "0x5183adca8472B7c999c310e4D5aAab04ad12E252",
             "sWrsETH": "0x383995FD2E86a2e067Ffb31674aa0d1B370B39bD",
-            "sMODE": "0x2E714eB72cD8f709993B9fAF4347E1072ab17c8A"
+            "sMODE": "0x2E714eB72cD8f709993B9fAF4347E1072ab17c8A",
+            "sSUSDe": "0x6b24CeD4a6628C207CD1eEAe4EF9a1eDC6eE864E"
          },
          "VariableDebtTokens": {
             "vUSDC": "0xe5415Fa763489C813694D7A79d133F0A7363310C",
@@ -197,17 +203,20 @@
             "vWeETHMode": "0xF8D68E1d22FfC4f09aAA809B21C46560174afE9c",
             "vMBTC": "0x3F332f38926b809670b3cac52Df67706856a1555",
             "vWrsETH": "0x083E519E76fe7e68C15A6163279eAAf87E2addAE",
-            "vMODE": "0xe57Bf381Fc0a7C5e6c2A3A38Cc09de37b29CC4C3"
+            "vMODE": "0xe57Bf381Fc0a7C5e6c2A3A38Cc09de37b29CC4C3",
+            "vSUSDe": "0xE6075A86F4517B1B8136498fe23640C73aa1b711"
          }
       },
       "Peripheral": {
          "Rewards": {
             "Rewarder": "0xC043BA54F34C9fb3a0B45d22e2Ef1f171272Bc9D",
             "RewardTokens": {
+               "ICL": "0x95177295A394f2b9B04545FFf58f4aF0673E839d",
                "oICL": "0x3B6eA0fA8A487c90007ce120a83920fd52b06f6D",
                "MODE": "0xDfc7C877a950e49D2610114102175A06C2e3167a"
             },
             "RewardVaults": {
+               "ICL": "",
                "oICL": "0x836B1C8D082C5e1f7d83c2C81a221d30BBc7039b",
                "MODE": "0xE51a7937A669cB4f9291A03FC44E407302f4ce16"
             }
@@ -254,97 +263,6 @@
          "Timelock": "0x96bCFB86F1bFf315c13e00D850e2FAeA93CcD3e7",
          "Multisig": "0xD4D995787D39D70F35E694dC8306D7dB863234aC",
          "EmergencyMultisig": "0xD4D995787D39D70F35E694dC8306D7dB863234aC"
-      }
-   },
-   "Base": {
-      "Reserves": {
-         "DAI": "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb",
-         "USDC": "0xd9aAEc86B65D86f6A7B5B1b0c42FFA531710b6CA",
-         "ETH": "0x4200000000000000000000000000000000000006",
-         "CBETH": "0x2Ae3F1Ec7F1F5012CFEab0185bfc7aa3cf0DEc22",
-         "CBBTC": "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf",
-         "AERO": "0x940181a94A35A4569E4529A3CDfB74e38FD98631",
-         "USDC": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
-      },
-      "Aggregators": {
-         "DAI": "0x591e79239a7d679378eC8c847e5038150364C78F",
-         "USDC": "0x7e860098F58bBFC8648a4311b374B1D669a2bc6B",
-         "ETH": "0x71041dddad3595F9CEd3DcCFBe3D1F4b0a16Bb70",
-         "CBETH": "0xdDE5dC81e40799750B92079723Da2acAF9e1C6D6",
-         "CBBTC": "0x07DA0E54543a844a80ABE69c8A12F22B3aA59f9D",
-         "AERO": "0x4EC5970fC728C5f65ba413992CD5fF6FD70fcfF0",
-         "USDC": "0x7e860098F58bBFC8648a4311b374B1D669a2bc6B"
-      },
-      "Strategies": {
-         "VolatileStrategy": "0xff50Bcda308254549Be68e5F3E79Cd6304D95478",
-         "StableStrategy": "0x6387c7193B5563DD17d659b9398ACd7b03FF0080"
-      },
-      "Protocol": {
-         "Registry": "0x5C93B799D31d3d6a7C977f75FDB88d069565A55b",
-         "Provider": "0xEDc83309549e36f3c7FD8c2C5C54B4c8e5FA00FC",
-         "ReserveLogic": "0x72fAD09e3DA8Cec0e975bF253c1e5EaFdb927FEc",
-         "GenericLogic": "0x39dfc4F2d95210A06Cd0eA79d53946E3c2593cc4",
-         "ValidationLogic": "0x3D08C69c49cc2D4420eF533bEc4C1016554567A6",
-         "LendingPool": "0xC01a7AD7Fb8a085a3cc16be8eaA10302c78a1783",
-         "LendingPoolProxy": "0xB702cE183b4E1Faa574834715E5D4a6378D0eEd3",
-         "Configurator": "0x37133A8dCA96400c249102E59B11e25b0F663Ee0",
-         "ConfiguratorProxy": "0xc534f577c0e6c46B27fdcA6D27D132c543b0D61c",
-         "AToken": "0x9aEeFef549323511E027D70562f0C7EdcDEB294C",
-         "VariableDebtToken": "0x158B0B1414F153e58F8aCAC50E777FEEC234Dd9D",
-         "StableDebtToken": "0xE4F4F36FcBb2D53c0bAB95F5D117489579553CaA",
-         "AaveOracle": "0x5A3423210536d930150080F699248EDeBC65E2B4",
-         "LendingRateOracle": "0x8429d0AFade80498EAdb9919E41437A14d45A00B",
-         "WETHGateway": "0x29563f73De731Ae555093deb795ba4D1E584e42E",
-         "CollateralManager": "0x352BC36E5552a364D4D2AA01C8C12BEC11c6cc11",
-         "ATokens": {
-            "grainDAI": "0xe7334Ad0e325139329E747cF2Fc24538dD564987",
-            "grainUSDC": "0x02CD18c03b5b3f250d2B29C87949CDAB4Ee11488",
-            "grainETH": "0x9c29a8eC901DBec4fFf165cD57D4f9E03D4838f7",
-            "grainCBETH": "0x272CfCceFbEFBe1518cd87002A8F9dfd8845A6c4",
-            "grainCBBTC": "0x58254000eE8127288387b04ce70292B56098D55C",
-            "grainAERO": "0xe3f709397e87032E61f4248f53Ee5c9a9aBb6440",
-            "grainNativeUSDC": "0xC17312076F48764d6b4D263eFdd5A30833E311DC"
-         },
-         "StableDebtTokens": {
-            "sDAI": "0xC40709470139657E6D80249c5cC998eFb44898C9",
-            "sUSDC": "0x73C177510cb7b5c6a7C770376Fc6EBD29eF9e1A7",
-            "sETH": "0x6f66C5C5e2FF94929582EaBfc19051F19ed9EB70",
-            "sCBETH": "0x09AB5cA2d537b81520F78474d6ED43675451A7f8",
-            "sCBBTC": "0xc73AC4D26025622167a2BC67C93a855C1c6BDb24",
-            "sAERO": "0x383995FD2E86a2e067Ffb31674aa0d1B370B39bD",
-            "sNativeUSDC": "0x5183adca8472B7c999c310e4D5aAab04ad12E252"
-            
-         },
-         "VariableDebtTokens": {
-            "vDAI": "0xe5415Fa763489C813694D7A79d133F0A7363310C",
-            "vUSDC": "0xBcE07537DF8AD5519C1d65e902e10aA48AF83d88",
-            "vETH": "0x06D38c309d1dC541a23b0025B35d163c25754288",
-            "vCBETH": "0x5eEA43129024eeE861481f32c2541b12DDD44c08",
-            "vCBBTC": "0x05249f9Ba88F7d98fe21a8f3C460f4746689Aea5",
-            "vAERO": "0x083E519E76fe7e68C15A6163279eAAf87E2addAE",
-            "vNativeUSDC": "0x3F332f38926b809670b3cac52Df67706856a1555"
-         }
-      },
-      "Peripheral": {
-         "Rewards": {
-            "Rewarder": "0xC043BA54F34C9fb3a0B45d22e2Ef1f171272Bc9D",
-            "RewardTokens": {
-            },
-            "RewardVaults": {
-            }
-         },
-         "AaveProtocolDataProvider": "0xed984A0E9c12Ee27602314191Fc4487A702bB83f",
-         "StableAndVariableTokenHelper": "0x7F8face1fBa2901Cb46F8a87A9E1717eCb215210",
-         "ATokenHelper": "0x389Ee3f9a95F5Cb73B50D138679B3F21883DaC37",
-         "WalletBalanceProvider": "0x9e73e030C08b0eA7A9AA5a8b5C2D034Efa533D77",
-         "UiPoolDataProvider": "0x10615D451a5b91C92ce8538703E7AABA5d5cCC4D",
-         "UiPoolDataProviderV2": "0xe1752ae13C5FA44bef8C7352De499D95A1d56Cd8",
-         "UiIncentivesDataProvider": "",
-         "ChainlinkSourcesRegistry": "0xfF1B7120BaAA89ACDE6e45Ccfb2263A8416C20F0",
-         "Treasury": "0xd93E25A8B1D645b15f8c736E1419b4819Ff9e6EF",
-         "Timelock": "0x3E45df33Adf1b81E7B45cA468E8e41496a66c837",
-         "Multisig": "0xbdB399dD6F66609303D906D90765E432c04F77a4",
-         "EmergencyMultisig": "0xb2Adf47eCBC8236FF2097075A3f080dfd79b583A"
       }
    },
    "Base": {
