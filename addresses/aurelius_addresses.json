@@ -10,7 +10,8 @@
             "USDe": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
             "USDY": "0x5be26527e817998a7206475496fde1e68957c5a6",
             "FBTC": "0xC96dE26018A54D51c097160568752c4E3BD6C364",
-            "CMETH": "0xe6829d9a7ee3040e1276fa75293bde931859e8fa"
+            "CMETH": "0xe6829d9a7ee3040e1276fa75293bde931859e8fa",
+            "sUSDe": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2"
         },
         "Aggregators": {
             "USDC": {
@@ -57,7 +58,13 @@
                 "Adapter": "0x064D0ea578d42A315F5208068653383fc5D0fC48",
                 "Feed": "0xbD81A812a118f74857B71cACA71f98f6f0b37945"
             },
-            "FBTC": "0x76A495b0bFfb53ef3F0E94ef0763e03cE410835C"
+            "FBTC": {
+                "Feed": "0x76A495b0bFfb53ef3F0E94ef0763e03cE410835C"
+            },
+            "sUSDe": {
+                "Feed": "0xe011F218a8553F5Bf127c957eA0a3eE3f3076Ca6"
+            }
+            
         },
         "Strategies": {
             "StableStrategy": "0x4901a3141a4b7e04F71D97Def16931e2cEA56C12",
@@ -66,7 +73,8 @@
             "METHStrategy": "0xa0a2aae7f21ded1dad17e43dd9a2372c175419f6",
             "WBTCStrategy": "0xa0a2aae7f21ded1dad17e43dd9a2372c175419f6",
             "FBTCStrategy": "0xa0a2aae7f21ded1dad17e43dd9a2372c175419f6",
-            "CMETHStrategy": "0xa0a2aae7f21ded1dad17e43dd9a2372c175419f6"
+            "CMETHStrategy": "0xa0a2aae7f21ded1dad17e43dd9a2372c175419f6",
+            "sUSDeStrategy": "0xa0a2aae7f21ded1dad17e43dd9a2372c175419f6"
         },
         "Protocol": {
             "Registry": "0x295AAA60d155E81731818315269E702228348C29",
@@ -95,7 +103,8 @@
                 "auCMETH": "0x76f727F55074931221Fc88a188B7915084011dCF",
                 "auUSDe": "0x7bdb0095429f8eff1efb718aabc912b2489ba5b3",
                 "auUSDY": "0xfdd2ebc184b4ff6df14562715452e970c82fe49a",
-                "auFBTC": "0x491F8FBC6b9a5db31c959a702aB6A0dCBEA73a48"
+                "auFBTC": "0x491F8FBC6b9a5db31c959a702aB6A0dCBEA73a48",
+                "auSUSDe": "0x32670A5337ae105A67312006f190503A0bee4DD2"
             },
             "StableDebtTokens": {
                 "sUSDC": "0xB41Cf1EEAdfD17FBc0086E9e856f1ac5460064d2",
@@ -107,7 +116,8 @@
                 "sCMETH": "0x5625062966B5c7E36cDA5A7e18c5c8D2Fd2bfF98",
                 "sUSDe": "0x7f9c39386be3f6a8c1753b5fbe8c96f7eaef88e1",
                 "sUSDY": "0xe0ae10fB6cB1A366C56204aFe1ae2a94a0ed9A11",
-                "sFBTC": "0x88140812eE16B48447eAF7BA9A5649D1F9A2d949"
+                "sFBTC": "0x88140812eE16B48447eAF7BA9A5649D1F9A2d949",
+                "sSUSDe": "0x37694C364560e8736c80c0CF27111F9Efc7f8cf3"
             },
             "VariableDebtTokens": {
                 "vUSDC": "0xaA9c890CA3E6B163487dE3C11847B50e48230b45",
@@ -119,7 +129,8 @@
                 "vCMETH": "0x0aa17f21dC8977CDf0141e35543f094fB9eDaECE",
                 "vUSDe": "0xcbe019c9c44954d388602a99a45a1d7da61321cf",
                 "vUSDY": "0x2D55f5558AEa4c25Fcc1Ff78b10265755AFF3856",
-                "vFBTC": "0xd2ea6612f6c7c11626F7D5D801D08B53BCe52511"
+                "vFBTC": "0xd2ea6612f6c7c11626F7D5D801D08B53BCe52511",
+                "vSUSDe": "0x899Bf182cAbA1038205d32F22DD88490dAa85826"
             }
         },
         "Peripheral": {
