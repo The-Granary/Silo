@@ -10,7 +10,8 @@
          "MBTC": "0x59889b7021243dB5B1e065385F918316cD90D46c",
          "wrsETH": "0xe7903B1F75C534Dd8159b313d92cDCfbC62cB3Cd",
          "MODE": "0xDfc7C877a950e49D2610114102175A06C2e3167a",
-         "sUSDe": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2"
+         "sUSDe": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
+         "uniBTC": "0x6B2a01A5f79dEb4c2f3c0eDa7b01DF456FbD726a"
       },
       "Aggregators": {
          "USDC": {
@@ -140,6 +141,9 @@
          },
          "sUSDe": {
             "Feed": "0x5bf557949F3E9a516200aF7AE1d66113964d4d6E"
+         },
+         "uniBTC": {
+            "Feed": "0x4EEB40C0379B8654db64966b2C7C6039486d4F9f"
          }
       },
       "Strategies": {
@@ -180,7 +184,8 @@
             "ironMBTC": "0xC17312076F48764d6b4D263eFdd5A30833E311DC",
             "ironWrsETH": "0xe3f709397e87032E61f4248f53Ee5c9a9aBb6440",
             "ironMODE": "0x0F4f2805a6d15dC534d43635314444181A0e82CD",
-            "ironSUSDe": "0x0Eb9C75689d7dB53727723E42263B44d7A31618c"
+            "ironSUSDe": "0x0Eb9C75689d7dB53727723E42263B44d7A31618c",
+            "ironUniBTC": "0x0F041cf2ae959f39215EFfB50d681Df55D4d90B1"
          },
          "StableDebtTokens": {
             "sUSDC": "0xC40709470139657E6D80249c5cC998eFb44898C9",
@@ -192,7 +197,8 @@
             "sMBTC": "0x5183adca8472B7c999c310e4D5aAab04ad12E252",
             "sWrsETH": "0x383995FD2E86a2e067Ffb31674aa0d1B370B39bD",
             "sMODE": "0x2E714eB72cD8f709993B9fAF4347E1072ab17c8A",
-            "sSUSDe": "0x6b24CeD4a6628C207CD1eEAe4EF9a1eDC6eE864E"
+            "sSUSDe": "0x6b24CeD4a6628C207CD1eEAe4EF9a1eDC6eE864E",
+            "sUniBTC": "0x8A468142b1199aB49AC6Dc915a1B9fBDE3D1b70e"
          },
          "VariableDebtTokens": {
             "vUSDC": "0xe5415Fa763489C813694D7A79d133F0A7363310C",
@@ -204,7 +210,8 @@
             "vMBTC": "0x3F332f38926b809670b3cac52Df67706856a1555",
             "vWrsETH": "0x083E519E76fe7e68C15A6163279eAAf87E2addAE",
             "vMODE": "0xe57Bf381Fc0a7C5e6c2A3A38Cc09de37b29CC4C3",
-            "vSUSDe": "0xE6075A86F4517B1B8136498fe23640C73aa1b711"
+            "vSUSDe": "0xE6075A86F4517B1B8136498fe23640C73aa1b711",
+            "vUniBTC": "0x80215c38DCb6ae91520F8251A077c124e7259688"
          }
       },
       "Peripheral": {
