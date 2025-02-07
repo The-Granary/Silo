@@ -149,7 +149,8 @@
       "Strategies": {
          "StableStrategy": "0xff50Bcda308254549Be68e5F3E79Cd6304D95478",
          "VolatileStrategy": "0x33c62BC416309F010c4941163aBEa3725e4645BF",
-         "ETHStrategy": "0x2756F9db44dB040437bF58E850A454a38E390b9C"
+         "ETHStrategy": "0x2756F9db44dB040437bF58E850A454a38E390b9C",
+         "NerfedStrategy": "0x165AED5679473a0B46D2E15f653509Bc697CC807"
       },
       "Protocol": {
          "Registry": "0x5C93B799D31d3d6a7C977f75FDB88d069565A55b",
